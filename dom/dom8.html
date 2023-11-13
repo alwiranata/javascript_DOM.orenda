@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DOM</title>
+</head>
+<style>
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+    }
+
+    body {
+        text-align: center;
+
+    }
+
+    .biru-muda {
+        background-color: aquamarine;
+    }
+
+    .kotak {
+        width: 25px;
+        height: 25px;
+        margin: 10px auto;
+    }
+
+    .merah {
+        background-color: red;
+    }
+
+    .biru {
+        background-color: blue;
+
+    }
+
+    .hijau {
+        background-color: green;
+    }
+</style>
+
+<body>
+    <h1>Play with Color</h1>
+    <button type="button" id="tUbahWarna">Change Color</button>
+    <br><br>
+    <div class="kotak merah"></div>
+    <input type="range" name="sm" min="0" max="255">
+    <br><br>
+    <div class="kotak hijau"></div>
+    <input type="range" name="sh" min="0" max="255">
+    <br><br>
+    <div class="kotak biru"></div>
+    <input type="range" name="sb" min="0" max="255">
+
+
+
+
+    <script src="../js/8.js"></script>
+</body>
+
+</html>
